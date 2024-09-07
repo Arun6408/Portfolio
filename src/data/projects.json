@@ -1,0 +1,26 @@
+[
+  {
+    "title": "React Projects",
+    "imageSrc": "projects/react.png",
+    "description": "Worked on several React projects, building dynamic UIs with efficient state management and a component-based approach.",
+    "skills": ["React", "Firebase", "Node","Express"],
+    "demo": "https://github.com/Arun6408/React-Projects/blob/main/README.md",
+    "source": "https://github.com/Arun6408/React-Projects"
+  },
+  {
+    "title": "Node Projects",
+    "imageSrc": "projects/node.png",
+    "description": "Developed multiple Node.js projects, focusing on creating scalable APIs and efficient server-side solutions.",
+    "skills": ["Express", "Node","MongoDb"],
+    "demo": "https://github.com/Arun6408/Node.js-Projects/blob/main/README.md",
+    "source": "https://github.com/Arun6408/Node.js-Projects"
+  },
+  {
+    "title": "Chess Game",
+    "imageSrc": "projects/chess.png",
+    "description": "Built a fully functional chess game with standard rules and smooth gameplay. Focused on logic handling and efficient game state management.",
+    "skills": ["C++"],
+    "demo": "https://github.com/Arun6408/Chess-cpp/blob/main/README.md",
+    "source": "https://github.com/Arun6408/Chess-cpp"
+  }
+]

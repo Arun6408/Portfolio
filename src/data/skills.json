@@ -1,0 +1,225 @@
+[
+    {
+        "title": "Python",
+        "name": "Python",
+        "type": "Programming Language",
+        "icon": "skills/Python.png"
+    },
+    {
+        "title": "PHP",
+        "type": "Programming Language",
+        "icon": "skills/PHP.png"
+    },
+    {
+        "title": "C",
+        "type": "Programming Language",
+        "icon": "skills/C.svg"
+    },
+    {
+        "title": "C++",
+        "type": "Programming Language",
+        "icon": "skills/C++.svg"
+    },
+    {
+        "title": "HTML",
+        "name": "HTML",
+        "type": "Programming Language",
+        "icon": "skills/HTML.png"
+    },
+    {
+        "title": "CSS",
+        "name": "CSS",
+        "type": "Programming Language",
+        "icon": "skills/CSS.png"
+    },
+    {
+        "title": "JavaScript",
+        "name": "JavaScript",
+        "type": "Programming Language",
+        "icon": "skills/JavaScript.svg"
+    },
+    {
+        "title": "TypeScript",
+        "name": "TypeScript",
+        "type": "Programming Language",
+        "icon": "skills/TypeScript.svg"
+    },
+    {
+        "title": "Flutter",
+        "name": "Flutter",
+        "type": "Programming Language",
+        "icon": "skills/Flutter.svg"
+    },
+    {
+        "title": "MySQL",
+        "name": "MySQL",
+        "type": "Programming Language",
+        "icon": "skills/MySQL.svg"
+    },
+    {
+        "title": "Node.js",
+        "type": "Framework/Library",
+        "icon": "skills/Node.js.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"center",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.7"
+        }
+    },
+    {
+        "title": "Express",
+        "type": "Framework/Library",
+        "icon": "skills/Express.js.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"center",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.7"
+        }
+    },
+    {
+        "title": "React",
+        "name": "React",
+        "type": "Framework/Library",
+        "icon": "skills/React.svg"
+    },
+    {
+        "title": "Next.js",
+        "type": "Framework/Library",
+        "icon": "skills/Next.js.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"center",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.2"
+        }
+    },
+    {
+        "title": "Vite",
+        "type": "Framework/Library",
+        "icon": "skills/Vite.svg"
+    },
+    {
+        "title": "Vue",
+        "type": "Framework/Library",
+        "icon": "skills/Vue.svg"
+    },
+    {
+        "title": "Tailwind CSS",
+        "name": "Tailwind CSS",
+        "type": "Framework/Library",
+        "icon": "skills/Tailwind_CSS.svg"
+    },
+    {
+        "title": "Bootstrap",
+        "name": "Bootstrap",
+        "type": "Framework/Library",
+        "icon": "skills/Bootstrap.svg"
+    },
+    {
+        "title": "jQuery",
+        "type": "Framework/Library",
+        "icon": "skills/jQuery.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"center",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.7"
+        }
+    },
+    {
+        "title": "Git",
+        "name": "Git",
+        "type": "Tool/Technology",
+        "icon": "skills/Git.svg"
+    },
+    {
+        "title": "GitHub",
+        "name": "GitHub",
+        "type": "Tool/Technology",
+        "icon": "skills/Github.svg",
+        "class":{
+            "background-color":"#fff",
+            "width":"46.5px",
+            "height":"46.5px",
+            "border-radius":"50%",
+            "position":"relative"
+        }
+    },
+    {
+        "title": "MongoDB",
+        "type": "Tool/Technology",
+        "icon": "skills/MongoDb.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"center",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.7"
+        }
+    },
+    {
+        "title": "Numpy",
+        "type": "Tool/Technology",
+        "icon": "skills/Numpy.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"end",
+            "width":"90px",
+            "height":"40px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.9"
+        }
+    },
+    {
+        "title": "Pandas",
+        "type": "Tool/Technology",
+        "icon": "skills/Pandas.svg",
+        "class":{
+            "background-color":"#fff",
+            "display":"flex",
+            "justify-content":"center",
+            "align-items":"end",
+            "width":"90px",
+            "height":"35px",
+            "overflow":"hidden"
+        },
+        "innerclass":{
+            "scale":"1.9"
+        }
+    }
+]
