@@ -47,7 +47,7 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="text-2xl font-bold text-blue-500"
           >
-            Pavani Tarra
+            Arun Kumar Challa
           </motion.div>
 
           {/* Desktop Navigation */}

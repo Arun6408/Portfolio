@@ -6,36 +6,36 @@ const About = () => {
   const achievements = [
     {
       icon: <Trophy className="w-6 h-6" />,
-      title: "Mathematics Olympiad",
-      description: "Successfully participated and achieved recognition in 2019",
-      color: "from-yellow-500 to-orange-500"
-    },
-    {
-      icon: <Award className="w-6 h-6" />,
-      title: "IoT Certification",
-      description: "Certified in IoT-Based Systems from Thapar Institute",
+      title: "Software Development Intern",
+      description: "Silverlights Software Solutions, May 2023 – June 2023",
       color: "from-blue-500 to-cyan-500"
     },
     {
+      icon: <Award className="w-6 h-6" />,
+      title: "NIT Silchar Academic Excellence",
+      description: "B.Tech in Electrical Engineering, CGPA: 8.29 (2022–2026)",
+      color: "from-yellow-500 to-orange-500"
+    },
+    {
       icon: <Trophy className="w-6 h-6" />,
-      title: "Sports Achievements",
-      description: "Regional-Level Kabaddi Player",
+      title: "Coding Achievements",
+      description: "350+ LeetCode problems, 109+ CodeChef problems solved",
       color: "from-green-500 to-emerald-500"
     }
-  ]
+  ];
 
   const hobbies = [
-    { name: "Painting", icon: "🎨" },
-    { name: "Cooking", icon: "👨‍🍳" },
-    { name: "Cycling", icon: "🚴" },
-    { name: "Craft Working", icon: "🛠️" }
-  ]
+    { name: "Coding", icon: "💻" },
+    { name: "Chess", icon: "♟️" },
+    { name: "Public Speaking", icon: "🎤" },
+    { name: "Event Management", icon: "📋" }
+  ];
 
   const languages = [
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
     { name: "Telugu", level: "Native" }
-  ]
+  ];
 
   return (
     <section id="about" className="py-20 bg-gray-800">
@@ -63,19 +63,16 @@ const About = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold text-white mb-6">
-              Computer Science Enthusiast & ECE Student
+              Software Developer & Electrical Engineering Student
             </h3>
-            
             <div className="space-y-4 text-gray-300">
               <p className="text-lg leading-relaxed">
-                I am a passionate Computer Science enthusiast currently pursuing a B.E. in Electronics & Communication Engineering at Thapar University. My primary interests lie in Data Structures & Algorithms, frontend development, and Python programming. I enjoy building interactive web applications and solving challenging coding problems. While my academic background is in ECE, my career focus is on software development and technology.
+                I am Arun Kumar Challa, a passionate software developer and B.Tech student in Electrical Engineering at NIT Silchar. I specialize in full-stack web development, competitive programming, and building scalable solutions. My interests include AI, backend systems, and technical leadership.
               </p>
-              
               <p className="text-lg leading-relaxed">
-                My journey in technology has been driven by curiosity and a desire to solve complex problems. From designing PCB circuits to developing web and Python-based projects.
+                My journey includes hands-on experience in web development, API design, and database optimization. I thrive in collaborative environments and enjoy solving complex problems, both in code and in teams.
               </p>
             </div>
-
             {/* Languages */}
             <div className="mt-8">
               <h4 className="text-xl font-semibold text-white mb-4 flex items-center gap-2">

@@ -77,7 +77,7 @@ const Hero = () => {
             >
               Hi, I'm{' '}
               <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
-                Pavani Tarra
+                Arun Kumar Challa
               </span>
             </motion.h1>
             
@@ -87,7 +87,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto"
             >
-              Electronics & Communication Engineering @ Thapar University
+              Electrical Engineering @ NIT Silchar
             </motion.p>
             
             <motion.p
@@ -96,7 +96,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-lg text-gray-400 max-w-2xl mx-auto"
             >
-             ECE student with a strong interest in core electronics and a growing passion for Computer Science, focusing on DSA, Python, and Frontend Development.
+              Software developer, competitive programmer, and AI enthusiast. Building scalable web apps, solving complex problems, and leading teams to success. Always eager to learn and innovate.
             </motion.p>
           </motion.div>
 
@@ -107,7 +107,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href='https://drive.google.com/file/d/1OdP_7hIONqQwbKwhDSAF60Kh_ewaviCM/view?usp=sharing'
+              href='https://arunportfolio-tau.vercel.app/resume.pdf'
               className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg"
             >
               <Download size={20} />
@@ -131,7 +131,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="https://github.com/Pavani-64"
+              href="https://github.com/Arun6408"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
@@ -142,7 +142,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:t.pavani1204@gmail.com"
+              href="mailto:challaa_ug_22@ee.nits.ac.in"
               className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
             >
               <Mail size={28} />
@@ -151,10 +151,10 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="https://leetcode.com/u/pavani_6408/"
+              href="https://leetcode.com/u/arun6408/"
               className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
             >
-              <SiLeetcode  size={28} />
+              <SiLeetcode size={28} />
             </motion.a>
           </motion.div>
         </motion.div>

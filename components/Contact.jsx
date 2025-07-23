@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "t.pavani1204@gmail.com",
-      link: "mailto:t.pavani1204@gmail.com"
+      value: "challaa_ug_22@ee.nits.ac.in",
+      link: "mailto:challaa_ug_22@ee.nits.ac.in"
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Phone",
-      value: "+91 8309353414",
-      link: "tel:+918309353414"
+      value: "+91-994-9970-880",
+      link: "tel:+919949970880"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      value: "Patiala, Punjab, India",
+      value: "Silchar, Assam, India",
       link: "#"
     }
   ]
@@ -28,19 +28,25 @@ const Contact = () => {
     {
       name: "GitHub",
       icon: <Github className="w-6 h-6" />,
-      url: "https://github.com/Pavani-64",
+      url: "https://github.com/Arun6408",
       color: "hover:text-gray-400"
     },
     {
       name: "LinkedIn",
       icon: <Linkedin className="w-6 h-6" />,
-      url: "#",
+      url: "https://linkedin.com/in/ArunkumarChalla",
       color: "hover:text-blue-500"
+    },
+    {
+      name: "Portfolio",
+      icon: <Send className="w-6 h-6" />,
+      url: "https://arunportfolio-tau.vercel.app",
+      color: "hover:text-green-500"
     },
     {
       name: "Email",
       icon: <Mail className="w-6 h-6" />,
-      url: "mailto:t.pavani1204@gmail.com",
+      url: "mailto:challaa_ug_22@ee.nits.ac.in",
       color: "hover:text-red-500"
     }
   ]

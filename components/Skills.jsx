@@ -5,57 +5,50 @@ import { Code, Computer, Cpu, Database, Globe, Settings } from "lucide-react";
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Data Structures & Algorithms",
-      icon: <Database className="w-6 h-6" />,
-      skills: [
-        { name: "Problem Solving", level: 90 },
-        { name: "Data Structures", level: 85 },
-        { name: "Algorithms", level: 80 },
-      ],
-    },
-    {
-      title: "Frontend Development",
-      icon: <Code className="w-6 h-6" />,
-      skills: [
-        { name: "HTML/CSS", level: 85 },
-        { name: "JavaScript", level: 75 },
-        { name: "React (basics)", level: 70 },
-      ],
-    },
-    {
       title: "Programming Languages",
       icon: <Code className="w-6 h-6" />,
       skills: [
-        { name: "Python", level: 80 },
         { name: "C", level: 90 },
         { name: "C++", level: 95 },
-        { name: "SQL", level: 80 },
-      ],
+        { name: "Python", level: 85 },
+        { name: "HTML", level: 90 },
+        { name: "CSS", level: 85 },
+        { name: "JavaScript", level: 80 },
+        { name: "TypeScript", level: 75 },
+        { name: "SQL", level: 80 }
+      ]
     },
     {
-      title: "Computer Fundamentals",
+      title: "Frameworks & Libraries",
       icon: <Computer className="w-6 h-6" />,
       skills: [
-        { name: "OOPS", level: 90 },
-        { name: "Operating Systems", level: 85 },
-        { name: "Computer Networks", level: 80 },
-        { name: "DBMS", level: 80 },
-      ],
+        { name: "Node.js", level: 80 },
+        { name: "Express", level: 80 },
+        { name: "React", level: 75 },
+        { name: "Next.js", level: 80 },
+        { name: "Tailwind CSS", level: 85 }
+      ]
     },
     {
-      title: "Core Electronics (Hardware + Software)",
-      icon: <Cpu className="w-6 h-6" />,
+      title: "Tools & Technologies",
+      icon: <Settings className="w-6 h-6" />,
       skills: [
-        { name: "Analog Electronics", level: 95 },
-        { name: "MOSFET", level: 90 },
-        { name: "Digital Electronics", level: 90 },
-        { name: "Verilog", level: 85 },
-        { name: "Microcontrollers (ARM, PIC, AVR)", level: 85 },
-        { name: "Firmware Development", level: 85 },
-        { name: "SystemVerilog", level: 80 },
-        { name: "Tanner EDA", level: 75 },
-      ],
+        { name: "Git", level: 85 },
+        { name: "PostgreSQL", level: 80 },
+        { name: "MySQL", level: 80 },
+        { name: "MongoDB", level: 75 }
+      ]
     },
+    {
+      title: "Soft Skills",
+      icon: <Globe className="w-6 h-6" />,
+      skills: [
+        { name: "Leadership", level: 90 },
+        { name: "Event Management", level: 85 },
+        { name: "Technical Writing", level: 80 },
+        { name: "Public Speaking", level: 80 }
+      ]
+    }
   ];
 
   return (
@@ -152,7 +145,7 @@ const Skills = () => {
               "🧾 PCB Design",
               "📶 Sensor Networks",
               "🔧 Hardware Testing",
-              "🎬 Video Editing (DaVinci Resolve)",
+              "�� Video Editing (DaVinci Resolve)",
             ].map((skill, index) => (
               <motion.div
                 key={skill}

@@ -5,20 +5,20 @@ import { Briefcase, Calendar, MapPin, Building } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: "Intern – Hybrid and Electric Vehicle Development",
-      company: "Thapar University",
-      location: "Patiala, Punjab",
-      period: "July 2023 – August 2023",
-      description: "Gained hands-on experience in hybrid and electric vehicle systems, focusing on module optimization.",
+      title: "Software Development Intern",
+      company: "Silverlights Software Solutions",
+      location: "Onsite",
+      period: "May 2023 – June 2023",
+      description: "Built interactive forms, optimized MySQL queries, developed RESTful APIs, and integrated backend with frontend for real-time updates.",
       achievements: [
-        "Assisted in designing and analyzing vehicle components to improve performance and efficiency",
-        "Collaborated with a team to successfully complete a technical project within the given timeline",
-        "Gained practical knowledge in hybrid and electric vehicle systems",
-        "Contributed to module optimization and system analysis"
+        "Improved user engagement by 15% through interactive forms",
+        "Optimized MySQL queries for efficient data access",
+        "Built RESTful APIs for CRUD operations",
+        "Linked frontend with backend for real-time updates"
       ],
-      technologies: ["Vehicle Systems", "Module Optimization", "Team Collaboration", "Technical Analysis"]
+      technologies: ["HTML", "CSS", "PHP", "jQuery", "MySQL", "REST API"]
     }
-  ]
+  ];
 
   return (
     <section id="experience" className="py-20 bg-gray-900">

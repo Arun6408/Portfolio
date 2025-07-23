@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "My Portfolio",
-  description: "Pavani Tarra's Portfolio Website",
+  title: "Arun Kumar Challa | Portfolio",
+  description: "Arun Kumar Challa's Portfolio Website",
 };
 
 export default function RootLayout({ children }) {
