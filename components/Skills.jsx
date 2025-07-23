@@ -134,9 +134,7 @@ const Skills = () => {
           viewport={{ once: true }}
           className="mt-16"
         >
-          <h3 className="text-2xl font-bold text-white text-center mb-8">
-            Additional Skills
-          </h3>
+        
 
         </motion.div>
       </div>
