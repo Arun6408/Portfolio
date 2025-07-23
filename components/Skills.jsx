@@ -138,28 +138,6 @@ const Skills = () => {
             Additional Skills
           </h3>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              "📡 IoT Systems",
-              "🔌 Circuit Analysis",
-              "🧾 PCB Design",
-              "📶 Sensor Networks",
-              "🔧 Hardware Testing",
-              "�� Video Editing (DaVinci Resolve)",
-            ].map((skill, index) => (
-              <motion.div
-                key={skill}
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ scale: 1.05 }}
-                className="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-700 transition-colors duration-200 border border-gray-700"
-              >
-                <span className="text-gray-300 font-medium">{skill}</span>
-              </motion.div>
-            ))}
-          </div>
         </motion.div>
       </div>
     </section>
