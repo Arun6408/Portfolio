@@ -1,27 +1,28 @@
 'use client'
 import { motion } from 'framer-motion'
-import { Award, Trophy, Heart, Users, Globe } from 'lucide-react'
+import { Award, Trophy, Heart, Globe, GraduationCap, Medal } from 'lucide-react'
 
 const About = () => {
   const achievements = [
     {
       icon: <Trophy className="w-6 h-6" />,
-      title: "Software Development Intern",
-      description: "Silverlights Software Solutions, May 2023 – June 2023",
+      title: "Coding Achievements",
+      description: "350+ LeetCode problems, 700+ problems solved on various platforms",
       color: "from-blue-500 to-cyan-500"
     },
     {
-      icon: <Award className="w-6 h-6" />,
+      icon: <GraduationCap className="w-6 h-6" />,
       title: "NIT Silchar Academic Excellence",
       description: "B.Tech in Electrical Engineering, CGPA: 8.29 (2022–2026)",
       color: "from-yellow-500 to-orange-500"
     },
     {
-      icon: <Trophy className="w-6 h-6" />,
-      title: "Coding Achievements",
-      description: "350+ LeetCode problems, 109+ CodeChef problems solved",
-      color: "from-green-500 to-emerald-500"
+      icon: <Medal className="w-6 h-6" />,
+      title: "Winners at NITS Hacks Hackathon 6.0",
+      description: "Won 1st place among 100+ teams for our innovative project.",
+      color: "from-green-500 to-emerald-400"
     }
+
   ];
 
   const hobbies = [

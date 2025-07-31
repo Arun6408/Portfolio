@@ -48,6 +48,18 @@ const Skills = () => {
         { name: "Technical Writing", level: 80 },
         { name: "Public Speaking", level: 80 }
       ]
+    },
+    {
+      title: "Electrical Core",
+      icon: <Cpu className="w-6 h-6" />,
+      skills: [
+        { name: "Circuit Theory", level: 95 },
+        { name: "Digital Electronics", level: 90 },
+        { name: "Power Electronics", level: 85 },
+        { name: "EMFT", level: 85 },
+        { name: "Power Systems", level: 80 },
+        { name: "Electrical Machines", level: 75 },
+      ]
     }
   ];
 

@@ -8,7 +8,7 @@ const Contact = () => {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
       value: "challaa_ug_22@ee.nits.ac.in",
-      link: "mailto:challaa_ug_22@ee.nits.ac.in"
+      link: "mailto:challaarunkumar007@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
@@ -46,7 +46,7 @@ const Contact = () => {
     {
       name: "Email",
       icon: <Mail className="w-6 h-6" />,
-      url: "mailto:challaa_ug_22@ee.nits.ac.in",
+      url: "mailto:challaarunkumar007@gmail.com",
       color: "hover:text-red-500"
     }
   ]
@@ -211,7 +211,7 @@ const Contact = () => {
           className="text-center mt-16 pt-8 border-t border-gray-700"
         >
           <p className="text-gray-400">
-            © 2024 Pavani Tarra. All rights reserved.
+            © 2025 Arun Kumar. All rights reserved.
           </p>
           <p className="text-gray-500 text-sm mt-2">
             Built with React, Tailwind CSS, and Framer Motion

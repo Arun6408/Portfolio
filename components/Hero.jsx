@@ -3,8 +3,10 @@ import { motion } from 'framer-motion'
 import { Download, Mail, Github,  } from 'lucide-react'
 import { SiLeetcode } from '@icons-pack/react-simple-icons';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -107,21 +109,22 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href='https://arunportfolio-tau.vercel.app/resume.pdf'
+              href='https://drive.google.com/file/d/1qfNHpdPC2q6eaAmYAjdFDnFFlc2vJD4N/view?usp=drive_link'
               className="flex items-center gap-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-lg"
             >
               <Download size={20} />
               Download Resume
             </motion.a>
             
-            <motion.button
+            <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
+              href='mailto:challaarunkumar007@gmail.com'
               className="flex items-center gap-2 border-2 border-blue-500 text-blue-500 px-8 py-3 rounded-lg font-semibold hover:bg-blue-500 hover:text-white transition-all duration-200"
             >
               <Mail size={20} />
               Contact Me
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           <motion.div
@@ -142,7 +145,7 @@ const Hero = () => {
             <motion.a
               whileHover={{ scale: 1.1, y: -5 }}
               whileTap={{ scale: 0.95 }}
-              href="mailto:challaa_ug_22@ee.nits.ac.in"
+              href="mailto:challaarunkumar007@gmail.com"
               className="text-gray-400 hover:text-blue-500 transition-colors duration-200"
             >
               <Mail size={28} />

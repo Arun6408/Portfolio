@@ -1,56 +1,117 @@
 'use client'
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, Monitor, Code, Cpu, Zap } from 'lucide-react'
+import { ExternalLink, Github, Monitor, Code, Cpu, Zap, MessageSquare, Dice3, Car, Fingerprint } from 'lucide-react'
 
 const Projects = () => {
-  // CSE Projects
-  const cseProjects = [
-    {
-      title: "TextForgeAI",
-      level: "Advanced",
-      description: "Full-stack AI content creation platform leveraging Gemini API with pre-built templates, user authentication (Clerk), and Razorpay-based payments.",
-      features: [
-        "Pre-built content templates for rapid creation",
-        "User authentication and payment integration",
-        "Gemini API for AI-powered content generation"
-      ],
-      technologies: ["Next.js", "TypeScript", "Tailwind", "NeonDB", "Drizzle ORM", "Gemini API"],
-      github: "https://github.com/Arun6408/TextForgeAI",
-      demo: "https://textforgeai.vercel.app/",
-      icon: <Code className="w-8 h-8" />,
-      color: "from-blue-500 to-purple-600"
-    },
-    {
-      title: "RiseEd",
-      level: "Advanced",
-      description: "Comprehensive schooling app for managing attendance, fees, e-books, and user roles for admins, teachers, and students.",
-      features: [
-        "Attendance and fee management",
-        "E-books and user role management",
-        "Admin, teacher, and student dashboards"
-      ],
-      technologies: ["Next.js", "PostgreSQL", "NeonDB", "Tailwind CSS", "Express", "Node.js"],
-      github: "https://github.com/Arun6408/RiseEd",
-      demo: "https://rised.vercel.app/",
-      icon: <Monitor className="w-8 h-8" />,
-      color: "from-green-500 to-blue-500"
-    },
-    {
-      title: "Chess Game",
-      level: "Intermediate",
-      description: "Terminal-based chess game in C++ with complete rule logic, move validation, and detection of check, checkmate, and draw.",
-      features: [
-        "Move validation and turn handling",
-        "Check, checkmate, and draw detection",
-        "C++ implementation with clean code"
-      ],
-      technologies: ["C++", "Git"],
-      github: "https://github.com/Arun6408/Chess-Game",
-      demo: null,
-      icon: <Code className="w-8 h-8" />,
-      color: "from-purple-500 to-pink-500"
-    }
-  ];
+const cseProjects = [
+  {
+    title: "RiseEd",
+    level: "Advanced",
+    description: "Comprehensive schooling app for managing attendance, fees, e-books, and user roles for admins, teachers, and students.",
+    features: [
+      "Attendance and fee management",
+      "E-books and user role management",
+      "Admin, teacher, and student dashboards"
+    ],
+    technologies: ["Next.js", "PostgreSQL", "NeonDB", "Tailwind CSS", "Express", "Node.js"],
+    github: "https://github.com/Arun6408/RiseEd",
+    demo: "https://rised.vercel.app/",
+    icon: <Monitor className="w-8 h-8" />,
+    color: "from-green-500 to-blue-500"
+  },
+  {
+    title: "2D Ear Recognition",
+    level: "Advanced",
+    description: "Deep learning-based biometric identification system that detects known and unknown individuals using ear images with robust metric learning and open-set recognition techniques.",
+    features: [
+      "TripletNet with EfficientNet backbone",
+      "Unknown identity detection using ensemble methods",
+      "Evaluation via accuracy, F1-score, and t-SNE visualization"
+    ],
+    technologies: ["PyTorch", "EfficientNet", "Triplet Loss", "Scikit-learn", "One-Class SVM", "t-SNE"],
+    github: "https://github.com/Arun6408/2D-Ear-Recognition-using-Deep-Learning",
+    demo: "",
+    ppt:"https://docs.google.com/presentation/d/1hi0O0L2HzJYRhG59-IBNB-L2bR2pFPF9/edit?usp=sharing&ouid=108747577891052801435&rtpof=true&sd=true",
+    icon: <Fingerprint className="w-8 h-8" />,
+    color: "from-purple-500 to-pink-500"
+  },
+  {
+    title: "TextForgeAI",
+    level: "Advanced",
+    description: "Full-stack AI content creation platform leveraging Gemini API with pre-built templates, user authentication (Clerk), and Razorpay-based payments.",
+    features: [
+      "Pre-built content templates for rapid creation",
+      "User authentication and payment integration",
+      "Gemini API for AI-powered content generation"
+    ],
+    technologies: ["Next.js", "TypeScript", "Tailwind", "NeonDB", "Drizzle ORM", "Gemini API"],
+    github: "https://github.com/Arun6408/TextForgeAI",
+    demo: "https://textforgeai.vercel.app/",
+    icon: <Code className="w-8 h-8" />,
+    color: "from-blue-500 to-purple-600"
+  },
+  {
+    title: "Chess Game",
+    level: "Intermediate",
+    description: "Terminal-based chess game in C++ with complete rule logic, move validation, and detection of check, checkmate, and draw.",
+    features: [
+      "Move validation and turn handling",
+      "Check, checkmate, and draw detection",
+      "C++ implementation with clean code"
+    ],
+    technologies: ["C++", "Git"],
+    github: "https://github.com/Arun6408/Chess-cpp",
+    demo: null,
+    icon: <Code className="w-8 h-8" />,
+    color: "from-purple-500 to-pink-500"
+  },
+  {
+    title: "RideEase",
+    level: "Intermediate",
+    description: "Taxi booking app with Google Maps integration and secure authentication using Clerk. Supports multiple car types and payment options.",
+    features: [
+      "Easy taxi booking with location map",
+      "Google authentication and payment gateway",
+      "Mapbox integration with live location"
+    ],
+    technologies: ["Next.js", "Tailwind", "Mapbox", "Vercel", "Clerk", "Google Auth", "Payment Gateway"],
+    github: "https://github.com/Arun6408/taxi-booking-app",
+    demo: "https://taxi-booking-app-delta.vercel.app/",
+    icon: <Car className="w-8 h-8" />,
+    color: "from-yellow-400 to-green-500"
+  },
+  {
+    title: "Dice Game",
+    level: "Beginner",
+    description: "Simple dice game with fun rules and random dice rolls for two players.",
+    features: [
+      "Basic game logic with random dice rolls",
+      "Score tracking for players",
+      "Simple and interactive UI"
+    ],
+    technologies: ["JavaScript", "HTML", "CSS"],
+    github: "https://github.com/Arun6408/Dice-Game",
+    demo: "https://dice-game-tau-ochre.vercel.app/",
+    icon: <Dice3 className="w-8 h-8" />,
+    color: "from-orange-400 to-red-500"
+  },
+  {
+    title: "Buzz Chat",
+    level: "Intermediate",
+    description: "Real-time chat application with live message updates using WebSockets.",
+    features: [
+      "Live chatting with instant message delivery",
+      "User-friendly interface for messaging",
+      "WebSocket-based real-time functionality"
+    ],
+    technologies: ["Node.js", "Socket.io", "Express", "React", "WebSockets"],
+    github: "https://github.com/Arun6408/BuzzChat",
+    demo: null,
+    icon: <MessageSquare className="w-8 h-8" />,
+    color: "from-indigo-500 to-cyan-500"
+  }
+];
+
 
   return (
     <section id="projects" className="py-20 bg-gray-800">
@@ -160,6 +221,20 @@ const Projects = () => {
                    Live Demo
                  </motion.a> 
                   )}
+
+                  {!project.demo && project.ppt && (
+                   <motion.a
+                   whileHover={{ scale: 1.05 }}
+                   whileTap={{ scale: 0.95 }}
+                   href={project.ppt}
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
+                 >
+                   <ExternalLink size={16} />
+                   View PPT
+                 </motion.a> 
+                  )}
                 </div>
               </div>
             </motion.div>
@@ -180,7 +255,7 @@ const Projects = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="https://github.com/Pavani-64"
+            href="https://github.com/Arun6408"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200"

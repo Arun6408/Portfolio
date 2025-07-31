@@ -5,20 +5,36 @@ import { Briefcase, Calendar, MapPin, Building } from 'lucide-react'
 const Experience = () => {
   const experiences = [
     {
-      title: "Software Development Intern",
-      company: "Silverlights Software Solutions",
+      title: "Research Intern - Ear Detection Model",
+      company: "NIT Silchar (S.N. Bose Internship)",
       location: "Onsite",
-      period: "May 2023 – June 2023",
-      description: "Built interactive forms, optimized MySQL queries, developed RESTful APIs, and integrated backend with frontend for real-time updates.",
+      period: "May 2025 – July 2025",
+      description: "Worked under a professor at NIT Silchar on building a high-accuracy ear detection model using deep learning and anomaly detection techniques.",
       achievements: [
-        "Improved user engagement by 15% through interactive forms",
-        "Optimized MySQL queries for efficient data access",
-        "Built RESTful APIs for CRUD operations",
-        "Linked frontend with backend for real-time updates"
+        "Achieved 96–97% accuracy on known classes, 94.3% on unknowns",
+        "Used triplet loss and embeddings from EfficientNet and custom embedding networks",
+        "Tuned distance and confidence thresholds for optimal classification",
+        "Explored one-class SVM and Isolation Forest for unknown detection",
+        "Utilized MTCNN as the base face/ear detection model"
       ],
-      technologies: ["HTML", "CSS", "PHP", "jQuery", "MySQL", "REST API"]
-    }
-  ];
+      technologies: ["Python", "PyTorch", "EfficientNet", "MTCNN", "Triplet Loss", "One-Class SVM", "Isolation Forest"]
+    },
+  {
+    title: "Software Development Intern",
+    company: "Silverlights Software Solutions",
+    location: "Onsite",
+    period: "May 2023 – June 2023",
+    description: "Built interactive forms, optimized MySQL queries, developed RESTful APIs, and integrated backend with frontend for real-time updates.",
+    achievements: [
+      "Improved user engagement by 15% through interactive forms",
+      "Optimized MySQL queries for efficient data access",
+      "Built RESTful APIs for CRUD operations",
+      "Linked frontend with backend for real-time updates"
+    ],
+    technologies: ["HTML", "CSS", "PHP", "jQuery", "MySQL", "REST API"]
+  }
+];
+
 
   return (
     <section id="experience" className="py-20 bg-gray-900">
